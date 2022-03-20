@@ -1,0 +1,458 @@
+* {
+  font-family: "Fredoka", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: 300;
+}
+
+.titleMain {
+  color: #0077b6;
+}
+
+.subMain {
+  color: #6b8194;
+  font-size: large;
+  margin: 0px 20px;
+}
+
+.buttonMain {
+  color: white;
+  width: 12%;
+  background-color: #023e8a;
+  padding: 14px 4px;
+  font-size: medium;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0px 0px 0px #ade8f4, 0px 2px 30px #78bfce;
+}
+
+nav {
+  margin: 0;
+  padding: 0%;
+  padding-right: auto;
+}
+
+nav a,
+nav h1 {
+  display: inline-block;
+}
+
+nav a {
+  margin-left: 10px;
+  text-decoration: none;
+  padding: 4px;
+}
+
+nav a:hover {
+  box-shadow: 0px 0px 0px #ade8f4, 0px 2px 30px #5c929c;
+  border-radius: 8px;
+}
+
+nav h1 {
+  margin-right: 360px;
+  margin-left: 40px;
+}
+
+header {
+  height: 100px;
+  background: linear-gradient(80deg, white, #b9e4ecb0);
+}
+
+.triangulo {
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.triangulo img {
+  height: 70px;
+}
+
+.textMax {
+  width: 100%;
+}
+
+.textMax h2 {
+  color: #184e77;
+  font-size: 48px;
+  text-align: justify;
+  font-weight: 500;
+  margin-left: 150px;
+}
+
+.normalText {
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 150px;
+  font-weight: 400;
+  color: #6b8194;
+}
+
+.option1 p {
+  display: inline-block;
+  margin-left: 180px;
+  margin-right: -80px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #6b8194;
+}
+
+.enfermera1 {
+  height: 780px;
+  float: right;
+  margin-top: -90px;
+}
+.icon {
+  position: relative;
+  margin-left: 90px;
+  top: -36px;
+  right: -60px;
+}
+.icon2 {
+  position: relative;
+  margin-left: 90px;
+  top: -36px;
+  right: -116px;
+}
+.farma img {
+  width: 1250px;
+}
+.why {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.why h2 {
+  color: #184e77;
+  font-size: 38px;
+  text-align: justify;
+  font-weight: 500;
+  margin-left: 150px;
+}
+
+/* beneficios */
+.benefits {
+  width: 90%;
+  margin-left: 120px;
+  display: flexbox;
+  color: #ade8f4;
+  height: 220px;
+  margin-bottom: 40px;
+  /* border: 2px solid; */
+}
+.box {
+  width: 20%;
+  height: 220px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0px 16px;
+  border-radius: 12px;
+  box-shadow: 0 0 0 1px rgba(127, 193, 223, 0.247),
+    8px 10px 6px rgba(127, 192, 223, 0.452);
+  font-size: 14px;
+}
+
+.box:hover {
+  box-shadow: 0 10px 10px rgba(42, 175, 236, 0.247),
+    14px 10px 6px rgba(90, 181, 224, 0.24);
+}
+
+.titulosBene {
+  text-align: left;
+  margin: 10px;
+  color: #184e77;
+  font-weight: 500;
+  font-size: 18px;
+}
+.box p {
+  color: #6b8194;
+  margin: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.box img {
+  width: 46px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.before {
+  margin-top: 120px;
+}
+
+.before h2 {
+  color: #184e77;
+  font-size: 38px;
+  text-align: justify;
+  font-weight: 500;
+  margin-left: 650px;
+}
+
+.normalText2 {
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 650px;
+  font-weight: 400;
+  color: #6b8194;
+}
+
+.arrowLeft {
+  position: absolute;
+  margin-top: -18px;
+  width: 86px;
+}
+
+.preparations img {
+  width: 620px;
+  display: inline-block;
+}
+
+/* Info dezpliegue */
+
+.contenedor-preguntas {
+  display: inline-block;
+  width: 600px;
+}
+
+.contenedor-pregunta {
+  color: #0c4da3;
+  padding: 7px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.3s ease all;
+}
+/* Preguntas */
+
+.pregunta {
+  box-shadow: 0 0 0 1px rgba(127, 193, 223, 0.247),
+    8px 8px 6px rgba(127, 192, 223, 0.452);
+  font-weight: 400;
+  font-size: 16px;
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.pregunta img {
+  width: 30px;
+}
+
+.respuesta {
+  color: #1d1a1a;
+  line-height: 10px;
+  max-height: 0;
+  opacity: 0;
+  transition: 0.3s ease all;
+}
+
+.contenedor-pregunta.activa .respuesta {
+  opacity: 1;
+  margin-top: 20px;
+}
+
+/* Emergency contact */
+
+.Emergency img {
+  float: right;
+  width: 620px;
+  margin-top: -670px;
+}
+.contact {
+  width: 40%;
+  margin-left: 120px;
+  display: flexbox;
+  color: #ade8f4;
+  height: 220px;
+  margin-bottom: 40px;
+}
+
+.contact h3 {
+  font-size: 14px;
+  color: #1d1a1a;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.buttonContact {
+  border: 2px solid #023e8a;
+  font-weight: 400;
+  color: aliceblue;
+  border-radius: 6px;
+  background: #023e8a;
+  width: 80%;
+  padding: 10px;
+  margin-left: 54px;
+  text-decoration: none;
+}
+
+.titulosBene2 {
+  text-align: center;
+  margin: 1px;
+  color: #184e77;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.buttonContact:hover {
+  border-radius: 8px;
+  border-color: #044364;
+  box-shadow: 0 0 0 1px rgba(127, 193, 223, 0.247),
+    6px 3px 2px rgba(73, 168, 212, 0.527);
+}
+
+.box2 {
+  width: 42%;
+  height: 160px;
+  display: inline-block;
+  margin-right: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 0 1px rgba(127, 193, 223, 0.247),
+    8px 10px 6px rgba(127, 192, 223, 0.452);
+  font-size: 14px;
+}
+
+.box2:hover {
+  box-shadow: 0 10px 10px rgba(42, 175, 236, 0.247),
+    14px 10px 6px rgba(90, 181, 224, 0.24);
+}
+
+.box2 img {
+  position: absolute;
+  width: 30px;
+  border-radius: 20px;
+  margin-left: 18px;
+  margin-top: 8px;
+}
+/* PIe de pagina */
+footer{
+  background-color: #e3ebf1;
+  margin-top: 80px;
+}
+
+.vaccination{
+  width: 46%;
+  display: inline-block;
+}
+
+.vaccination h2{
+  margin-top: 50px;
+  margin-left: 80px;
+  font-size: x-large;
+  color: #023e8a;
+  font-weight: 400;
+}
+
+.vaccination p{
+  margin-top: 20px;
+  margin-left: 80px;
+  font-size: small;
+  color: #70757c;
+  font-weight: 400;
+}
+
+.about{
+  display: inline-block;
+  width: 16%;
+}
+
+.about h2{
+  margin-top: 50px;
+  margin-left: 80px;
+  font-size: large;
+  color: #4a678d;
+  font-weight: 400;
+}
+
+.about p{
+  margin-top: 20px;
+  margin-left: 80px;
+  font-size: small;
+  color: #70757c;
+  font-weight: 400;
+}
+
+.rights{
+  margin-top: 30px;
+}
+
+.rights h4{
+  color: #70757c;
+  font-size: 12px;
+  font-weight: 400;
+  display: inline-block;
+  margin-right: 80px;
+}
+
+.rights a{
+  font-weight: 400;
+  color: #70757c;
+  text-decoration: none;
+}
+
+.rights a:hover{
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px #ade8f4, 0px 2px 30px #2b373a;
+  color: #31363d;
+  padding: 10px;
+}
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+  nav h1 {
+    margin-right: 100px;
+    margin-left: 80px;
+  }
+
+  nav a {
+    margin-left: 40px;
+    text-decoration: none;
+    padding: 0px;
+  }
+
+  header {
+    margin-bottom: 100px;
+  }
+
+  .buttonMain {
+    color: white;
+    width: 8%;
+    background-color: #023e8a;
+    padding: 14px 4px;
+    font-size: medium;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0px 0px 0px #ade8f4, 0px 2px 30px #78bfce;
+  }
+  .textMax {
+    margin-left: 0px;
+  }
+ 
+  .farma img {
+    width: 1000px;
+  }
+  .contact {
+    width: 36%;
+    margin-left: 120px;
+    display: flexbox;
+    color: #ade8f4;
+    height: 220px;
+    margin-bottom: 40px;
+  }
+
+  .contenedor-preguntas {
+    display: inline-block;
+    width: 480px;
+  }
+
+  .rights h4{
+    color: #70757c;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 55px;
+  }
+}
+/* FIN RESPONSIVE */
