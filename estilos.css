@@ -211,6 +211,7 @@ header {
 /* Info dezpliegue */
 
 .contenedor-preguntas {
+  margin-left : 10px;
   display: inline-block;
   width: 600px;
 }
