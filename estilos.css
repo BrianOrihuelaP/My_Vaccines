@@ -211,9 +211,9 @@ header {
 /* Info dezpliegue */
 
 .contenedor-preguntas {
-  margin-left : 10px;
   display: inline-block;
   width: 600px;
+  margin-left: 22px;
 }
 
 .contenedor-pregunta {
@@ -436,16 +436,29 @@ footer{
   }
   .contact {
     width: 36%;
-    margin-left: 120px;
+    margin-left: 100px;
     display: flexbox;
     color: #ade8f4;
-    height: 220px;
+    height: 180px;
     margin-bottom: 40px;
+  }
+
+  .buttonContact {
+    border: 2px solid #023e8a;
+    font-weight: 400;
+    color: aliceblue;
+    border-radius: 6px;
+    background: #023e8a;
+    width: 80%;
+    padding: 4px;
+    margin-left: 54px;
+    text-decoration: none;
   }
 
   .contenedor-preguntas {
     display: inline-block;
-    width: 480px;
+    width: 410px;
+    margin-left: 20px;
   }
 
   .rights h4{
@@ -456,4 +469,6 @@ footer{
     margin-right: 55px;
   }
 }
+
 /* FIN RESPONSIVE */
+
